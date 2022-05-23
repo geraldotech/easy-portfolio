@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geraldo Costa - Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+        <nav>
+            <ul class="menu">
+                <li><a href="./">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projects.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <header>
+        </header>
+        <h2>Entrar em contato:</h2>
+        <section>
+            <form action="">
+      <fieldset>
+        <label for="nomo">Nome:</label>
+        <input type="text" id="nome" placeholder="nome" required><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" required>
+        <br>
+        <br>
+        <label for="area">Mensagem:</label><br>
+        <textarea id="area" rows="4" cols="30"></textarea>   
+      
+      </fieldset>
+
+      <fieldset class="btn">
+        <input type="reset" id="reset">
+        <input type="submit" onclick="enviado()" value="Enviar">
+      </fieldset>
+    </form>
+        </section>       
+        <footer>
+            <div class="social">
+                <a href="https://github.com/geraldotech" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/github.svg"
+                        alt="" />
+                    <p>GitHub</p>
+                </a>
+                <a href="https://www.linkedin.com/in/geraldo-petronilo" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/linkedin.svg"
+                        alt="" />
+                    <p>LinkedIn</p>
+                </a>
+                <a href="https://www.youtube.com/channel/UCbJcYWtA3rdogh9X3K2dPEg" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/youtube.svg"
+                        alt="" />
+                    <p>Youtube</p>
+                </a>       
+        </div>
+        <p>&copy;copyright 2022</p>
+            </footer>
+        </div>
+    </body>
+    <script>
+        function enviado(){
+            let nome = document.getElementById("nome").value;
+            let email = document.getElementById("email").value;
+            if(name == '' && email == ''){
+                alert("Preecha todos os campos!");
+            } else {
+                alert("Mensagem enviada com sucesso!");
+            }
+            }
+
+            person = {
+                name:"Geraldo Costa",
+                course: "Sistemas de Informação"
+            }
+    </script>
+    </html>
