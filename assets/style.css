@@ -125,6 +125,10 @@ fieldset input{
     height: 40px;
     margin-left: 35px;
 }
+#write{
+    color: coral;
+    text-align: center;
+}
 
 /* 
 for mobile
